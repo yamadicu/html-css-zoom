@@ -9,7 +9,36 @@ main{
     height: 90vh;
 }
 
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+    height: 80vh;
+}
+
+img{
+    width: 13vw;
+    height: 15vh;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+div{
+    position: relative;
+}
+
+.partecipante{
+    background-color: grey;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    z-index: 1;
+}
+
 footer{
     background-color: grey;
     height: 10vh;
 }
+
