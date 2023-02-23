@@ -4,16 +4,51 @@
     box-sizing: border-box;
 }
 
+.white{
+    color: white;
+    text-align: center;
+}
+
+.green{
+    color: green;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+}
+
+/* MAIN */
+
 main{
     background-color: black;
+    position: relative;
     height: 90vh;
 }
 
-section{
+.imp{
+    background-color: grey;
+    padding: 8px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    border-radius: 10px;
+}
+
+.full-screen{
+    background-color: grey;
+    padding: 8px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    border-radius: 10px;
+}
+
+.stanza{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 10vh;
+    padding-top: 5%;
     height: 80vh;
 }
 
@@ -24,7 +59,7 @@ img{
     padding-right: 5px;
 }
 
-div{
+.persone{
     position: relative;
 }
 
@@ -37,8 +72,51 @@ div{
     z-index: 1;
 }
 
+/* FINE MAIN */
+
+/* FOOTER */
+
 footer{
     background-color: grey;
     height: 10vh;
 }
 
+.barra{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottoni{
+    display: block;
+}
+
+.bottone{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.freccia{
+    display: inline-block;
+    color: white;
+}
+
+.padd{
+    padding-left: 5px;
+}
+
+.icon{
+    font-size: 40px;
+    text-align: center;
+}
+
+.end{
+    background-color: rgb(74,74,74);
+    height: 10vh;
+}
+
+.esci{
+    color: red;
+    padding-left: 20px;
+    padding-top: 4vh;
+}
